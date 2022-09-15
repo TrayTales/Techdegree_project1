@@ -10,6 +10,8 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
 }
 /* Link Styles */
 
@@ -74,7 +76,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
