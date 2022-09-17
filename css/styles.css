@@ -154,13 +154,13 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(../images/twitter.svg);
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(../images/linkedin.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
@@ -169,6 +169,16 @@ a.social:hover {
   clear: both;
 }
 
+/* Experience page styles only  */
+.second {
+  max-width: 80%;
+}
+.spacing {
+  margin-left: 40px;
+}
+ul {
+  list-style-type: none;
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
